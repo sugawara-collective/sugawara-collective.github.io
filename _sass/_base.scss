@@ -158,24 +158,28 @@ h2, h3, h4, h5 {
   width: 100%;
 }
 
-.icon#twitter {
+.icon#twitter, .social-icon#twitter {
   background-image: url(/assets/images/twitter.png);
 }
 
-.icon#tumblr {
+.icon#tumblr, .social-icon#tumblr {
   background-image: url(/assets/images/tumblr.png);
 }
 
-.icon#ao3 {
+.icon#ao3, .social-icon#ao3 {
   background-image: url(/assets/images/ao3.png);
 }
 
-.icon#insta {
+.icon#insta, .social-icon#insta {
   background-image: url(/assets/images/insta.png);
 }
 
-.icon#kofi {
+.icon#kofi, .social-icon#kofi {
   background-image: url(/assets/images/kofi.svg);
+}
+
+.icon#mail, .social-icon#mail {
+  background-image: url(/assets/images/email.png);
 }
 
 
@@ -250,4 +254,38 @@ a {
     font-size: smaller;
   }
   
+}
+
+.contact-buttons {
+  margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+    column-gap: 0.8em;
+    row-gap: 0.8em;
+}
+
+.social-icon{
+  height: 1.5em;
+  width: 1.5em;
+  /*filter: invert(1);*/
+  filter: invert(33%) sepia(11%) saturate(649%) hue-rotate(215deg) brightness(94%) contrast(89%);
+  background-size: contain;
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-decoration: none;
+
+  &:hover {
+    filter: invert(87%) sepia(4%) saturate(2078%) hue-rotate(185deg) brightness(86%) contrast(97%);
+  }
+}
+
+footer {
+  padding: 2em;
+  max-width: 1200px;
+  margin: auto;
+  text-align: left;
 }
