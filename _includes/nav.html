@@ -1,0 +1,21 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/">
+      <img class="logo" src="{{ '/assets/images/tsc-logo-dark.png' | prepend: site.baseurl }}">
+    </a>
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-end">
+      {% for pg in site.pages %} {% unless pg.exclude %}
+      {% if pg.title %}
+      <a class="navbar-item {% if pg.title == page.title %}current{% endif %}" href="{{ pg.url | prepend: site.baseurl }}">{{ pg.title }}</a>
+      {% endif %} {% endunless %} {% endfor %}
+    </div>
+  </div>
+</nav>

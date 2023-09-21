@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Mimi",
+    "photo": "/assets/images/members/mimi.jpg",
+    "filters": ["writer"],
+    "url": "https://miminiac.github.io",
+    "socials": [
+      {
+        "type": "twitter",
+        "handle": "miminiac",
+        "url": "https://twitter.com/miminiac"
+      },
+      {
+        "type": "ao3",
+        "handle": "mimimortis",
+        "url": "https://archiveofourown.org/users/mimimortis"
+      },
+      {
+        "type": "kofi",
+        "handle": "mimimortis",
+        "url": "https://ko-fi.com/mimimortis"
+      }
+    ]
+  },
+  {
+    "name": "Ika",
+    "photo": "/assets/images/members/ika.jpeg",
+    "filters": ["writer", "artist"],
+    "url": "https://twitter.com/sunsetika",
+    "socials": [
+      {
+        "type": "twitter",
+        "handle": "sunsetika",
+        "url": "https://twitter.com/sunsetika"
+      },
+      {
+        "type": "ao3",
+        "handle": "ferventsunset",
+        "url": "https://ao3.org/users/ferventsunset/"
+      }
+    ]
+  },
+]

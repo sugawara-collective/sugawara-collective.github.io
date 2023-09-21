@@ -1,0 +1,59 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+.projects-container {
+	clear:both;
+}
+.project-details {
+	position: relative;
+
+	.overlay {
+		display: none;
+		position: absolute;
+	    top: 0;
+	    bottom: 0;
+	    right:0;
+	    left:0;
+	    height: 100%;
+	    width: 100%;
+	    background-color: rgba(88,83,101,.5);
+	}
+
+	.tags {
+		position: absolute;
+	    top: 0;
+	    bottom: 0;
+	    right:0;
+	    left:0;
+	    margin: auto;
+	    height: fit-content;
+	    display: flex;
+	    flex-wrap: wrap;
+	    align-items: center;
+	    justify-content: center;
+	}
+}
+.project-title h4 {
+	margin-top:1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.project-container a {
+	 text-decoration: none !important;
+}
+
+.project-container:hover {
+	
+	.project-title h4 {
+		color: #acbed8;
+	}
+
+    .overlay {
+		display: inline;
+    }
+}
+
+.filters {
+	font-size: smaller;
+}

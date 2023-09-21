@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    {% include nav.html %}
+    <main class="page-main">
+      <article class="main-content container">{{ content }}</article>
+    </main>
+  </body>
+  <script src="{{ 'assets/js/bulma.js' | prepend: site.baseurl }}"></script>
+  {% if page.scripts %}
+  {% for script in page.scripts %}
+    <script src="{{ script }}"></script>
+  {% endfor %}
+  {% endif %}
+</html>

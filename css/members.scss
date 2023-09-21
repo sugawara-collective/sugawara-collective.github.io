@@ -1,0 +1,41 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+.member-container {
+	text-align: center;
+
+	a {
+		text-decoration: none;
+	}
+}
+
+.member-container h3{
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+.member-socials {
+	font-size: smaller;
+	justify-content: center;
+	flex-direction: column;
+
+	.link {
+		text-decoration: none;
+		color: #acbed8;
+		margin-top: .2em;
+
+		&:hover {
+			opacity: .5;
+		}
+	}
+}
+
+.primary-link:hover {
+	.name {
+		opacity: .7;
+	}
+}
+
+.hidden {
+	display: none;
+}
