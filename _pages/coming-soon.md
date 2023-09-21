@@ -1,6 +1,6 @@
 ---
 layout: coming-soon
-permalink: /
+permalink: /coming-soon
 title: Coming Soon
 exclude: true
 ---

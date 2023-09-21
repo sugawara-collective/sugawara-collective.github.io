@@ -4,8 +4,11 @@ permalink: /join
 title: Join
 ---
 
-# Join the Collective
+# JOIN THE COLLECTIVE
 
+Currently we offer a discord server and an email newsletter for anyone wanting to join the collective. Through both of these modes of communication, members will have access to projects, events, and updates.
+
+If you would simply like to stay caught up on what the collective is doing, follow us on Twitter, Instagram, or Tumblr. You may also sign up for the email newsletter and choose "Only Updates" rather than receiving the member newsletter. 
 
 ## Discord Server
 
@@ -26,10 +29,10 @@ We offer a discord server with various channels and resources. Please note the r
 
 We are trying to live a drama-free life, so do not bring unnecessary stress to the projects. Our hope is that we can make new friends and create beautiful projects to be proud of!
 
-[Join Discord](/){: .button.is-primary}
+[Join Discord](https://discord.gg/GGZ24RYD){: .button.is-primary target="_blank"}
 
 ## Email Newsletter
 
-Another Option is the email newsletter.
+To sign up for the newsletter as a member or simply as an observer wanting to receive updates, use the form below.
 
-[Subscribe](/){: .button.is-primary}
+[Subscribe](https://forms.gle/qGcyaFbNfQHpCwL29){: .button.is-primary target="_blank"}
