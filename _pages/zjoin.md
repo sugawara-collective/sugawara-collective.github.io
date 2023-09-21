@@ -29,7 +29,7 @@ We offer a discord server with various channels and resources. Please note the r
 
 We are trying to live a drama-free life, so do not bring unnecessary stress to the projects. Our hope is that we can make new friends and create beautiful projects to be proud of!
 
-[Join Discord](https://discord.gg/JkCjQyfUm){: .button.is-primary target="_blank"}
+[Join Discord](https://discord.gg/G6yRYKZfF){: .button.is-primary target="_blank"}
 
 ## Email Newsletter
 
